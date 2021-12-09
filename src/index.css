@@ -7,7 +7,11 @@ body{
   text-shadow: 10px;
   text-shadow: yellow 1px 0 1px;
   font-family: 'Press Start 2P', cursive;
-  background:url(./background.jpg)
+  background:url(./img/background.jpg);
+  -webkit-tap-highlight-color: transparent;
+}
+body,html{
+  scroll-behavior: smooth;
 }
 @media(max-width:780px){
   html,body{
@@ -18,6 +22,9 @@ body{
   color: white;
   font-family: 'Press Start 2P', cursive;
   font-size: 15px;
+}
+textarea{
+  font-family: 'Press Start 2P', cursive;
 }
 ul{
   display: flex;

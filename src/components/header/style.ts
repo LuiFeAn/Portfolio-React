@@ -4,6 +4,9 @@ export const HomeHeader = styled.header`
     display: flex;
     padding: 20px 100px;
     color: white;
+    @media(max-width:780px){
+        display: none;
+    }
 `;
 export const HomeHeaderText = styled.a`
     font-size: 15px;
