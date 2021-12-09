@@ -1,1 +1,2 @@
-##Informações importantes
+## Informações importantes
+Projeto em desenvolvimento.
