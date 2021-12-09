@@ -1,6 +1,9 @@
 ## Informações importantes
-Projeto em desenvolvimento.
+Projeto em desenvolvimento...
 ## Instação 
 npm install
 ## Execução
 npm start
+
+
+
