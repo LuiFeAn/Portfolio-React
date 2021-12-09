@@ -3,6 +3,8 @@ import * as S from '../styles/personalstyles'
 import HomeHeader from '../components/header';
 import Hours from '../components/hours';
 import Level from '../components/level';
+import Menu from '../components/menu';
+import MenuMobile from '../components/menumobile';
 
 import css from '../img/css.png';
 import html from '../img/html.png';
@@ -13,38 +15,18 @@ const Home = ()=>{
 
     const [menuClick,setMenuClick] = useState<Boolean>(true);
     const [clicked,setClicked] = useState<Boolean>(false);
-    const [menuPos,setMenuPos] = useState<string>("-350px");
+    const [menuPos,setMenuPos] = useState<string>("-550px");
 
 
     const HandleMenuClick = ()=>{
        if(!clicked){
            setClicked(true)
-           setMenuPos("-350px");
+           setMenuPos("-550px");
        }
        else{
            setClicked(false)
            setMenuPos("0px");
        }
-    }
-
-    const handleAbout = ()=>{
-        window.scrollTo({top:250})
-        setMenuClick(false);
-    }
-
-    const handlePort = ()=>{
-        window.scrollTo({top:680})
-        setMenuClick(false);
-    }
-
-    const handleSkills = ()=>{
-        window.scrollTo({top:1050})
-        setMenuClick(false);
-    }
-
-    const handleContact = ()=>{
-        window.scrollTo({top:1500})
-        setMenuClick(false);
     }
 
     return(
@@ -55,19 +37,9 @@ const Home = ()=>{
 
         <S.PersonalContainer>
 
-            <S.MenuIconsContainer  onClick = {HandleMenuClick}>
-                <S.MenuIcons/>
-                <S.MenuIcons/>
-                <S.MenuIcons/>
-            </S.MenuIconsContainer>
+           <Menu action = {HandleMenuClick}/>
 
-            {!!menuClick?  <S.MenuMobile pos = {menuPos}>
-                -Viagem Rápida-
-               <p onClick = {handleAbout}>Sobre</p>
-               <p onClick = {handlePort}>Portfólio</p>
-               <p onClick = {handleSkills}>Skills</p>
-               <p onClick = {handleContact}>Contato</p>
-            </S.MenuMobile> : null}
+            {!!menuClick? <MenuMobile pos={menuPos}/> : null}
     
             <S.AboutContainer>
                 <S.Topic>Sobre mim:</S.Topic>
