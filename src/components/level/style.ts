@@ -1,19 +1,20 @@
 import styled from 'styled-components';
 export const LevelContainer = styled.section`
-    padding: 10px;
+    padding: 20px;
     background-color: black;
+    border-radius: 10px;
     color: white;
     display: flex;
     gap: 30px;
-    margin: 0px 250px;
     justify-content: center;
+
     @media(max-width:780px){
        margin:0;
-       inline-size: 400px;
+       padding: 0;
     }
 `;
 export const LevelContainerText = styled.p<{color: string}>`
-    font-size: 15px;
+    font-size: 12px;
     transition: 1s;
     color: ${props=>props.color}
 `;
