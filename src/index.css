@@ -7,8 +7,9 @@ body{
   text-shadow: 10px;
   text-shadow: yellow 1px 0 1px;
   font-family: 'Press Start 2P', cursive;
-  background:url(./img/background.jpg);
+  background:url(https://c4.wallpaperflare.com/wallpaper/427/112/988/pixel-art-fantasy-art-wallpaper-preview.jpg);
   -webkit-tap-highlight-color: transparent;
+  color: black;
 }
 body,html{
   scroll-behavior: smooth;

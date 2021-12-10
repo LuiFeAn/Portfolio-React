@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 export const LevelContainer = styled.section`
     padding: 20px;
-    background-color: black;
-    border-radius: 10px;
     color: white;
     display: flex;
     gap: 30px;
@@ -10,7 +8,7 @@ export const LevelContainer = styled.section`
 
     @media(max-width:780px){
        margin:0;
-       padding: 0;
+       padding: 10;
     }
 `;
 export const LevelContainerText = styled.p<{color: string}>`

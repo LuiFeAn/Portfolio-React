@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import * as S from '../styles/personalstyles'
 import HomeHeader from '../components/header';
-import Hours from '../components/hours';
 import Level from '../components/level';
 import Menu from '../components/menu';
 import MenuMobile from '../components/menumobile';
@@ -25,14 +24,14 @@ const Home = ()=>{
        }
        else{
            setClicked(false)
-           setMenuPos("0px");
+           setMenuPos("80px");
        }
     }
 
     return(
         <>
         <HomeHeader/>
-        <Hours/>
+        
         <Level/>
 
         <S.PersonalContainer>
@@ -49,7 +48,6 @@ const Home = ()=>{
                 <S.Desc>
                  Olá, me chamo Luís Fernando e sempre fui apaixonado por tecnologia.
                  Estou cursando engenharia de software e desenvolvo alguns projetos individuais para aprimorar minhas habiliades.
-                 Adoro estudar e aprender coisas novas. Criei este ''portfólio'' para compartilhar meus projetos e afins.
                 </S.Desc>
             </S.AboutContainer>
 
@@ -59,21 +57,20 @@ const Home = ()=>{
                 Atualmente meus projetos estão totalmente disponíveis no GitHub. Periodicamente, irei atualizar as coisas por aqui e por lá.
                 </S.Desc>
             </S.PortContainer>
-
             <S.SkillsContainer>
-                <S.Topic>Skills:</S.Topic>
+            <S.Topic>Skills:</S.Topic>
                 <S.Topic>Front-End:</S.Topic>
                     <S.SkillsImgContainer>
                         <S.SkillImg width = "70px" src = {html}/>
                         <S.SkillImg width = "70px" src = {css}/>
-                        <S.SkillImg marg="0px -20px" width = "100px" src = {react}/>
+                        <S.SkillImg marg="0px -14px" width = "100px" src = {react}/>
                     </S.SkillsImgContainer>
             </S.SkillsContainer>
 
             <S.SkillsContainer>
             <S.Topic>Back-End:</S.Topic>
                     <S.SkillsImgContainer>
-                        <S.SkillImg width = "55px" src = {node}/>
+                        <S.SkillImg width = "60px" src = {node}/>
                     </S.SkillsImgContainer>
             </S.SkillsContainer>
 
@@ -92,6 +89,8 @@ const Home = ()=>{
             </S.ContactContainer>
             
             <S.SocialContainer>
+                <S.Topic>Redes:</S.Topic>
+                <div>
                 <a href="">
                     <S.SocialImg src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"/>
                 </a>
@@ -101,6 +100,7 @@ const Home = ()=>{
                 <a href="https://github.com/LuiFeAn">
                     <S.SocialImg src = "https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png"/>
                 </a>
+                </div>
             </S.SocialContainer>
         </S.PersonalContainer>
         

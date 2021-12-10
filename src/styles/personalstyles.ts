@@ -7,23 +7,24 @@ export const PersonalContainer = style.section`
     display: flex;
     flex-direction: column;
     line-height: 20px;
-    margin: 50px 0px;
-    gap: 20px;
+    margin: 40px 0px;
+    justify-content: center;
 
-    h3,p{
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.466);
+    input{
+        width: 300px;
+    }
+    textarea{
+        width: 600px;
     }
 
     div{
-        background-color: rgba(0, 0, 0, 0.726);
-        padding: 15px;
-        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px white;
+        margin: 15px 100px;
     }
 
-    @media(max-width:780px){
-
-        padding:0;
+    @media(max-width:1012px){
+        padding: 0px;
         font-size: 15px;
 
         h3{
@@ -36,27 +37,43 @@ export const PersonalContainer = style.section`
         p{
             padding: 0;
             height: 0;
-            font-size: 13px;
+            font-size: 12px;
         }
         div{
             text-align: center;
+            margin: 20px 0px;
+            padding: 10px;
+        }
+        textarea{
+            width: 300px;
         }
     }
 `;
 export const AboutContainer = style.div`
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 300px;
+    @media(max-width: 1012px){
+        width: auto;
+        gap: 50px;
+        height: 350px;
+    }
 `;
 export const PortContainer = style.div`
     display: flex;
     flex-direction: column;
     margin: 250px 0px;
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 200px;
 `;
 export const SkillsContainer = style.div`
     display: flex;
     flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.644);
     gap: 25px;
+    margin: 20px 0px;
 `;
 export const ContactContainer = style.div`
     display:flex;
@@ -65,6 +82,8 @@ export const ContactContainer = style.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 600px;
 
     div{
         display: flex;
@@ -72,7 +91,7 @@ export const ContactContainer = style.div`
         gap: 30px;
     }
 
-    @media(max-width:780px){
+    @media(max-width:1012px){
 
         div{
             flex-direction: column;
@@ -85,7 +104,15 @@ export const ContactContainer = style.div`
 `;
 export const SocialContainer = style.div`
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    gap: 10px;
+
+    div{
+        padding: 20px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
 `;
 export const Footer = style.footer`
     text-align:center;
@@ -104,16 +131,19 @@ export const SocialImg = style.img`
 export const SkillsImgContainer = style.div`
     background-color: black;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     border-radius: 10px;
     
 `;
 export const SkillImg = style.img<{sizex?: string,marg?: string}>`
+    &hover{
+        transform:scale(1.1);
+    }
     width: ${props=>props.sizex}
     height: 50px;
     padding: 0px 10px;
-    margin: ${props=>props.marg}
+    margin: ${props=>props.marg};
 `;
 export const Input = style.input`
     width: 450px;
@@ -122,7 +152,7 @@ export const Input = style.input`
     border-radius: 10px;
     background-color: grey;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     padding: 15px;
     border: none;
     outline: none;
@@ -134,11 +164,11 @@ export const TextArea = style.textarea`
     border: none;
     background-color: grey;
     border-radius: 10px;
-    height: 300px;
+    height: 220px;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
 
-    @media(max-width:780px){
+    @media(max-width:1012px){
         width: 320px;
     }
 `;
@@ -155,4 +185,14 @@ export const Name = style.h3`
     margin: 0px 170px;
     color: white;
     text-align: center;
+`;
+export const WarriorContainer = style.div`
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+`;
+export const WarriroGif = style.img`
+    width: 140px;
+    hegith: 150px;
+    position: absolute;
 `;

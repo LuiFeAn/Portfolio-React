@@ -24,6 +24,7 @@ const MenuMobile = (props: Props)=>{
 
     return(
         <S.MenuMobile pos = {props.pos}>
+            Viagem Rápida
             <S.MenuItems onClick={handleAbout}>
                 Sobre
             </S.MenuItems>

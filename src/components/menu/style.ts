@@ -14,6 +14,6 @@ export const MenuIconsContainer = styled.section`
 export const MenuIcons = styled.section`
     background-color: white;
     border-radius: 10px;
-    width: 50px;
-    height: 15px;
+    width: 30px;
+    height: 12px;
 `;
