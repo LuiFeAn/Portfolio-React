@@ -4,6 +4,7 @@ export const MenuMobile = styled.aside<{pos?: string}>`
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.93);
+    align-items: center;
     transition: 1s;
     border-radius: 10px;
     height: auto;

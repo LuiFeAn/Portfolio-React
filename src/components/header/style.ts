@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 export const HomeHeader = styled.header`
-    background-color: black;
     display: flex;
     padding: 20px 100px;
     color: white;

@@ -1,15 +1,13 @@
 body{
   user-select:none;
-  font-family: sans-serif;
   margin:0;
   padding:0;
   font-weight: bold;
   text-shadow: 10px;
-  text-shadow: yellow 1px 0 1px;
+  text-shadow: yellow 1px 3px 10px;
   font-family: 'Press Start 2P', cursive;
-  background:url(https://c4.wallpaperflare.com/wallpaper/427/112/988/pixel-art-fantasy-art-wallpaper-preview.jpg);
   -webkit-tap-highlight-color: transparent;
-  color: black;
+  background-color: rgba(0, 0, 0, 0.952);
 }
 body,html{
   scroll-behavior: smooth;
