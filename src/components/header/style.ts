@@ -3,6 +3,7 @@ export const HomeHeader = styled.header`
     display: flex;
     padding: 20px 100px;
     color: white;
+    text-align:center;
     @media(max-width:780px){
         display: none;
     }

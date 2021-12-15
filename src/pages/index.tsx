@@ -83,9 +83,8 @@ const Home = ()=>{
                 <S.Topic>
                     Quest:
                 </S.Topic>
-                <S.TextArea>
-
-                </S.TextArea>
+                <S.TextArea/>
+                <S.Button>Enviar</S.Button>
             </S.ContactContainer>
             
             <S.SocialContainer>

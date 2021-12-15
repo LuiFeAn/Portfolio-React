@@ -13,6 +13,7 @@ export const MenuIconsContainer = styled.section`
 `;
 export const MenuIcons = styled.section`
     background-color: white;
+    image-rendering: pixelate;
     border-radius: 10px;
     width: 30px;
     height: 12px;

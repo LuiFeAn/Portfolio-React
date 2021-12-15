@@ -160,12 +160,26 @@ export const Input = style.input`
     padding: 15px;
     border: none;
     outline: none;
+    border: 5px solid white;
     font-family: 'Press Start 2P', cursive;
+`;
+export const Button = style.button`
+    width: 350px;
+    height: 50px;
+    background-color: grey;
+    border: 5px solid white;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 10px;
+
+    @media(max-width:1012px){
+        width: 200px;
+    }
 `;
 export const TextArea = style.textarea`
     outline: none;
     width: 750px;
-    border: none;
+    border: 5px solid white;
     background-color: grey;
     border-radius: 10px;
     height: 220px;
@@ -190,13 +204,4 @@ export const Name = style.h3`
     color: white;
     text-align: center;
 `;
-export const WarriorContainer = style.div`
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-`;
-export const WarriroGif = style.img`
-    width: 140px;
-    hegith: 150px;
-    position: absolute;
-`;
+
