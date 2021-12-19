@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 export const LevelContainer = styled.section`
-    padding: 20px;
     color: white;
     display: flex;
     flex-direction: row;
@@ -9,9 +8,6 @@ export const LevelContainer = styled.section`
     justify-content: center;
 
     @media(max-width:780px){
-       margin:0;
-       padding: 10;
-
        p{
            font-size: 10px;
        }

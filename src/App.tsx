@@ -1,9 +1,12 @@
-import Home from './pages/index'
-
+import Routs from './router/routs';
+import HomeHeader from './components/header';
+import Footer from './components/footer';
 function App() {
-  return(
-   <Home/>
-  );
+  return(<>
+      <HomeHeader/>
+      <Routs/>
+      <Footer/>
+  </>);
 }
 
 export default App;

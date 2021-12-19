@@ -8,6 +8,9 @@ body{
   font-family: 'Press Start 2P', cursive;
   -webkit-tap-highlight-color: transparent;
   background-color: rgba(0, 0, 0, 0.952);
+  background-image:url("https://wallpaperaccess.com/full/232614.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
 body,html{
   scroll-behavior: smooth;

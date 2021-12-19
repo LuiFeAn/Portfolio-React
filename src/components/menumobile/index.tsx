@@ -7,19 +7,19 @@ type Props = {
 const MenuMobile = (props: Props)=>{
 
     const handleAbout = ()=>{
-        window.scrollTo({top:250})
+        window.scrollTo({top:60})
     }
 
     const handlePort = ()=>{
-        window.scrollTo({top:680})
+        window.scrollTo({top:590})
     }
 
     const handleSkills = ()=>{
-        window.scrollTo({top:1050})
+        window.scrollTo({top:900})
     }
 
     const handleContact = ()=>{
-        window.scrollTo({top:1500})
+        window.scrollTo({top:1515})
     }
 
     return(
