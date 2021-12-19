@@ -7,7 +7,7 @@ export const LevelContainer = styled.section`
     gap: 30px;
     justify-content: center;
 
-    @media(max-width:780px){
+    @media(max-width:600px){
        p{
            font-size: 10px;
        }

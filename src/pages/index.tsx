@@ -34,11 +34,11 @@ const Home = ()=>{
             <Menu action = {HandleMenuClick}/>
             {!!menuClick? <MenuMobile pos={menuPos}/> : null}
             <About/>
-            <Level/>
             <Port/>
             <Skills/>
             <Contact/>
             <Social/>
+            <Level/>
         </S.PersonalContainer>
     );
 }

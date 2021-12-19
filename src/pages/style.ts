@@ -9,6 +9,7 @@ export const PersonalContainer = style.section`
     align-items: center;
     text-align: center;
     margin: 40px 0px;
+    color: white;
     gap: 50px;
 
     input{
@@ -23,11 +24,11 @@ export const PersonalContainer = style.section`
         box-shadow: 0px 0px 10px white;
         border-radius:10px;
         inline-size: 750px;
+        background-color: rgba(0, 0, 0, 0.644);
     }
 
-    @media(max-width:1012px){
+    @media(max-width:600px){
         padding: 0px;
-        font-size: 15px;
         align-items: unset;
         justify-content: center;
 
@@ -40,13 +41,13 @@ export const PersonalContainer = style.section`
 
         p{
             padding: 0;
-            height: 0;
             font-size: 12px;
         }
         div{
             text-align: center;
             margin: 20px 0px;
             inline-size: auto;
+            height:auto;
             padding: 10px;
         }
         textarea{

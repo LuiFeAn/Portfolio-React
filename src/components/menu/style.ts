@@ -7,7 +7,7 @@ export const MenuIconsContainer = styled.section`
     display: grid;
     z-index: 999;
     gap: 5px;
-    @media(min-width: 780px){
+    @media(min-width: 600px){
         display: none;
     }
 `;

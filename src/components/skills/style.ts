@@ -4,7 +4,6 @@ export const SkillsContainer = style.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgba(0, 0, 0, 0.644);
     gap: 25px;
 `;
 export const SkillsImgContainer = style.div`

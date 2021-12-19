@@ -7,8 +7,6 @@ export const ContactContainer = style.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.644);
-    height: 600px;
 
     div{
         display: flex;
@@ -16,7 +14,7 @@ export const ContactContainer = style.div`
         gap: 30px;
     }
 
-    @media(max-width:1012px){
+    @media(max-width:600px){
 
         div{
             flex-direction: column;
@@ -50,7 +48,7 @@ export const TextArea = style.textarea`
     color: white;
     font-size: 12px;
 
-    @media(max-width:1012px){
+    @media(max-width:600px){
         width: 320px;
     }
 `;
