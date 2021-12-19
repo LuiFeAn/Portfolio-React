@@ -20,5 +20,5 @@ export const MenuMobile = styled.aside<{pos?: string}>`
     }
 `;
 export const MenuItems = styled.p`
-    
+    margin:-0.1px 0px;
 `;

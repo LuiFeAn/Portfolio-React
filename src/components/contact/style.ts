@@ -41,7 +41,7 @@ export const Button = style.button`
 export const TextArea = style.textarea`
     outline: none;
     width: 750px;
-    border: 5px solid white;
+    border: 3px solid white;
     background-color: grey;
     border-radius: 10px;
     height: 220px;
@@ -67,10 +67,10 @@ export const Input = style.input`
     border-radius: 10px;
     background-color: grey;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     padding: 15px;
     border: none;
     outline: none;
-    border: 5px solid white;
+    border: 3px solid white;
     font-family: 'Press Start 2P', cursive;
 `;

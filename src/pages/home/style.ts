@@ -36,7 +36,6 @@ export const PersonalContainer = style.section`
             padding: 0;
             height: 0;
             margin: 0;
-            line-size: 350px;
         }
 
         p{

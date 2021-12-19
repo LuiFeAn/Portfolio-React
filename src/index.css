@@ -23,7 +23,7 @@ body,html{
 ::-webkit-input-placeholder{
   color: white;
   font-family: 'Press Start 2P', cursive;
-  font-size: 15px;
+  font-size: 13px;
 }
 textarea{
   font-family: 'Press Start 2P', cursive;
@@ -38,4 +38,11 @@ ul{
 }
 li{
   list-style: none;
+}
+@media(max-width:600px){
+  ::-webkit-input-placeholder{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+  }
 }

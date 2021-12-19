@@ -11,15 +11,15 @@ const MenuMobile = (props: Props)=>{
     }
 
     const handlePort = ()=>{
-        window.scrollTo({top:590})
+        window.scrollTo({top:480})
     }
 
     const handleSkills = ()=>{
-        window.scrollTo({top:900})
+        window.scrollTo({top:755})
     }
 
     const handleContact = ()=>{
-        window.scrollTo({top:1515})
+        window.scrollTo({top:1435})
     }
 
     return(

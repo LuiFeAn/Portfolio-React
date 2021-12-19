@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import * as S from './style'
 //Componentes
-import Level from '../components/level';
-import Menu from '../components/menu';
-import MenuMobile from '../components/menumobile';
-import Port from '../components/port';
-import About from '../components/about';
-import Skills from '../components/skills';
-import Contact from '../components/contact';
-import Social from '../components/social';
+import Level from '../../components/level';
+import Menu from '../../components/menu';
+import MenuMobile from '../../components/menumobile';
+import Port from '../../components/port';
+import About from '../../components/about';
+import Skills from '../../components/skills';
+import Contact from '../../components/contact';
+import Social from '../../components/social';
 
 
 const Home = ()=>{
