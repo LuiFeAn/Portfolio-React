@@ -1,6 +1,9 @@
 ## Informações importantes
-Este projeto ainda está em desenvolvimento
+`Ainda está em desenvolvimento`
 ## Instalação
-npm install para instalar as dependências
+`npm install para instalar as dependências`
 ## Execução
-npm start para iniciar o o servidor local
+`npm start para iniciar o o servidor local`
+## Screenshots
+
+![Screenshot](screenshots/desktop.png)
