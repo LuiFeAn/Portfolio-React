@@ -1,17 +1,29 @@
 import style from 'styled-components';
 
 export const ContactContainer = style.div`
-    display:flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-    div{
+    form{
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: 30px;
+        align-items:center;
+
+        div{
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            gap:30px;
+        }
+        
+        @media(max-width:600px){
+            div{
+                flex-direction:column;
+            }
+        }
+
+        button{
+            margin:10px 0px;
+        }
     }
 
     @media(max-width:600px){
