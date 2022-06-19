@@ -4,6 +4,4 @@
 `npm install para instalar as dependências`
 ## Execução
 `npm start para iniciar o o servidor local`
-## Screenshots
 
-![Screenshot](screenshots/desktop.png)
